@@ -1,0 +1,100 @@
+<!--Definimos que usaremos la versión mas reciente de html -->
+<!DOCTYPE html>
+<html>
+
+<!--Definimos los metadatos a utilizar en la web  -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Playlist | Los chamos informan</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!--Definimos el cuerpo de la web (básicamente lo visible)-->
+<body>
+
+<!--Aclaramos que crearemos un div con la clase "main"-->
+<div class="main">
+	
+<!-- La sección de arriba -->
+<div class="top_section">
+<h5>Playlist&nbsp;&nbsp;<i class="fa fa-headphones" aria-hidden="true"></i></h5>
+</div>
+
+<!-- Definimos la lista de canciones que serán añadidas en el archivo 'song_list.js' -->
+<div class="tracks">
+
+<!-- Creamos un pequeño reproductor de música -->
+<div class="small_music_player">
+<div class="s_player_img">
+<div class="playing_img">
+<img src="images/1.jpg" alt="">
+</div>
+    	
+<!-- Añadimos la animación de saludo -->
+<div class="wave_animation">
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+	</div>
+</div>
+
+<!-- Definimos los detalles de la canción inicial -->
+<div class="song_detail">
+<p id="song_name">Make Me Move</p>
+<p id="artist_name">NoCopyrightSounds [NCS]</p>
+</div>
+<i class="fa fa-chevron-up" aria-hidden="true" id="up_player"></i>
+</div>
+
+<!--  Parte popup del reproductor de música -->
+<div class="popup_music_player">
+<div class="top">
+<p>🎶 Ahora se está reproduciendo...</p>
+<i class="fa fa-chevron-down" aria-hidden="true" id="down_player"></i>
+</div>
+      
+<!-- Definimos la imagen de la canción que se va a reproducir -->
+<div class="song_img">
+<img src="images/1.jpg" alt="">
+</div>
+
+<!-- Definimos la descripción de la primera canción a reproducir (título y autor) -->
+<div class="song_description">
+<h3 id="current_track_name">Make Me Move</h3>
+<p id="current_singer_name">NoCopyrightSounds [NCS]</p>
+</div>
+
+<!-- Definimos cuanto tiempo lleva la canción reproduciendose -->
+<div class="controlls">
+<div class="progress_part">
+<input type="range" min="0" max="100" value="0" id="slider" onchange="change_duration()">
+<div class="durations">
+<p id="current_duration">0:00</p>
+<p id="total_duration">0:00</p>
+</div>
+</div>
+    		
+<!-- Añadimos los controles al reproductor y -->
+<div class="controlls_btns">
+<button id="backward_btn"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+<button id="play_pause_btn"><i class="fa fa-play" aria-hidden="true"></i></button>
+<button id="forward_btn"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- Enlazamos el archivo que tiene la lista de canciones a reproducir -->
+<script src="song_list.js"></script>
+
+<!-- Enlazamos el archivo principal de javascript -->
+<script src="main.js"></script>
+
+<!-- Cerramos el cuerpo de la web-->
+</body>
+</html>

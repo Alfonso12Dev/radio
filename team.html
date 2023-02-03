@@ -1,0 +1,109 @@
+<!--Definimos que usaremos la última versión de html-->
+<!DOCTYPE html>
+<html>
+
+<!--La cabeza de la web en donde enlazaremos los diferentes archivos a usar-->
+<head>
+<title>Equipo | Los chamos informan</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+<link href="archivos/css/styles.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!--El cuerpo (lo visible) de la radio-->
+<body>
+
+<!--Navegador-->
+<nav class="navbar">
+<div class="logo">
+	
+<!--Logo y título de la web-->    
+<h3><img class="bB" src="archivos/images/logo.webp"> Los chamos informan</h3>
+</div>
+
+<!--Apartados para entrar a otros lados de la web-->
+<ul class="links">
+  <li><button onclick="play()"><a href="/radio/index.html"><img src="./archivos/images/h1.gif" class="header"> Home</a></button></li>
+  <li><button onclick="play()"><a href="/radio/radio.html"><img src="./archivos/images/h2.gif" class="header"> En vivo</a></button><button onclick="play()"><a href="/radio/playlist.html"><img src="./archivos/images/h2.gif" class="header"> Playlist</a>
+  <li></li></button><button onclick="play()"><a href="/radio/shortlist.html"><img src="./archivos/images/h3.gif" class="header"> Shortlist</a></button></li>
+    </ul>
+</nav>
+		
+<!---->
+
+<!--Contenido después del navegador de la web-->
+<div id="content">
+<div>
+<!--Hacemos un salto de línea-->
+<br>
+
+<!--Realizamos un sobre mí acerca de la radio-->
+<div class="caja">
+<div id="coin"><a href="/"><img class="imC" src="archivos/images/logo.webp"></img>
+
+</a>
+</div>
+
+<!--Realizamos un sobre mí acerca de la radio-->
+<p id="info" class="red">Equipo de desarrollo y testers de<a href="/" class="headline">Los chamos informan</a>
+    
+<br>
+    
+<!--Realizamos un escrito sobre los desarrolladores de la página-->
+<div class="inf" id="box3">
+<img src="archivos/images/dev1.png" width="100px"><br><p class="bred">Equ (Diseñador, programador, redactor)
+</p>
+</div>
+
+<!--Flecha-->
+<div class="flecha"></div>
+
+<!--Créditos-->
+<div class="inf" id="box2">
+<img src="archivos/images/dev2.png" width="100px"><br><p class="resaltar">Darbys (Tester, aportes creativos)
+</p></a>
+
+</div>
+
+<!--Flecha-->
+<div class="Flecha"></div>
+
+<!--Créditos--> 
+<div class="inf" id="box">
+<img src="archivos/images/dev3.png" width="100px"><br><p class="resaltar">Kel$ (Aportes creativos)
+</p>
+
+</div>
+ </div>
+</div> 
+ </div>
+ 
+<!--Hacemos un salto de línea, sin requerir un br-->
+<div class="clear"></div>
+    
+<!--Parte de abajo de la web (footer)-->  
+<footer id="footer">
+
+<!--Añadimos los apartados del footer-->
+<p>
+<a href="/radio/index.html">🪀 HOME</a> | <a href="/radio/shortlist.html">📚 SHORTLIST</a> | <a href="/radio/team.html">🧩 ENCARGADOS</a>| <a onclick="play()" href="/radio/disclaimer.html"> 📜 DISCLAIMER</a></p>
+  </div>
+</div>
+</div>
+</div>
+    
+<!--Importamos el código de otro archivo de javascript-->
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+<script src="./archivos/scripts/loader.js"></script> 
+<script src="./archivos/scripts/antizoom.js"></script>
+<script src="./archivos/scripts/config.js"></script> 
+<script src="./archivos/scripts/scripts.js"></script> 
+    
+<audio id="audio" src="./archivos/system/success.mp3"></audio>
+<script>let play = function(){document.getElementById("audio").play()}</script>
+    
+</body>
+</html>

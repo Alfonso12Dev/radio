@@ -1,0 +1,134 @@
+<!--Definimos que usaremos la última versión de html-->
+<!DOCTYPE html>
+
+<!--La cabeza de la web en donde enlazaremos los diferentes archivos a usar-->
+<head>
+<title>Playlist | Los chamos informan</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="archivos/css/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<!--El cuerpo (lo visible) de la radio-->
+<body>
+
+<!--Navegador-->
+<nav class="navbar">
+
+<!-- Lado en donde se encontrara el logo y título del proyecto -->
+<div class="logo">
+
+<!--Logo y título de la web-->    
+<h3><img class="bB" src="archivos/images/logo.webp"> Los chamos informan</h3>
+</div>
+
+<!--Apartados para entrar a otros lados de la web-->
+<ul class="links">
+  <li><button onclick="play()"><a href="/radio/index.html"><img src="./archivos/images/h1.gif" class="header"> Home</a></button></li>
+  <li><button onclick="play()"><a href="/radio/radio.html"><img src="./archivos/images/h2.gif" class="header"> En vivo</a></button><button onclick="play()"><a href="/radio/playlist.html"><img src="./archivos/images/h2.gif" class="header"> Playlist</a>
+  <li></li></button><button onclick="play()"><a href="/radio/shortlist.html"><img src="./archivos/images/h3.gif" class="header"> Shortlist</a></button></li>
+    </ul>
+</nav>
+
+<!--Ahora alineamos al centro, el contenido de la web-->
+<div id="container">
+  
+<!-- Alineamos la web con la ID content -->
+<div id="content">
+
+<!--Aclaramos que crearemos un div con la clase "main"-->
+<div class="main">
+	
+<!-- La sección de arriba -->
+<div class="top_section">
+<h5>Playlist&nbsp;&nbsp;<i class="fa fa-headphones" aria-hidden="true"></i></h5>
+</div>
+
+<!-- Definimos la lista de canciones que serán añadidas en el archivo 'song_list.js' -->
+<div class="tracks">
+
+<!-- Creamos un pequeño reproductor de música -->
+<div class="small_music_player">
+<div class="s_player_img">
+<div class="playing_img">
+<img src="/archivos/images/example.png" alt="imagen">
+</div>
+    	
+<!-- Añadimos la animación de saludo -->
+<div class="wave_animation">
+
+	</div>
+</div>
+
+<!-- Definimos los detalles de la canción inicial -->
+<div class="song_detail">
+<p id="song_name">Desconocido</p>
+<p id="artist_name">Chilla's art</p>
+</div>
+<i class="fa fa-chevron-up" aria-hidden="true" id="up_player"></i>
+</div>
+
+<!--  Parte popup del reproductor de música -->
+<div class="popup_music_player">
+<div class="top">
+<p>🎶 Ahora se está reproduciendo...</p>
+<i class="fa fa-chevron-down" aria-hidden="true" id="down_player"></i>
+</div>
+      
+<!-- Definimos la imagen de la canción que se va a reproducir -->
+<div class="song_img">
+<img src="/archivos/images/example.png" alt="">
+</div>
+
+<!-- Definimos la descripción de la primera canción a reproducir (título y autor) -->
+<div class="song_description">
+<h3 id="current_track_name">Desconocido</h3>
+<p id="current_singer_name">Chilla's art</p>
+</div>
+
+<!-- Definimos cuanto tiempo lleva la canción reproduciendose -->
+<div class="controlls">
+<div class="progress_part">
+<input type="range" min="0" max="100" value="0" id="slider" onchange="change_duration()">
+<div class="durations">
+<p id="current_duration">0:00</p>
+<p id="total_duration">0:00</p>
+</div>
+</div>
+    		
+<!-- Añadimos los controles al reproductor y -->
+<div class="controlls_btns">
+<button id="backward_btn"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+<button id="play_pause_btn"><i class="fa fa-play" aria-hidden="true"></i></button>
+<button id="forward_btn"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+</div>
+	
+</div>
+</div>
+
+<!-- Hacemos una división dentro del código -->
+<div class="clear" id="end"></div></div>
+
+<!--Parte de abajo de la web (footer)-->  
+<div class="inferior" id="footer">
+
+<!--Añadimos los apartados del footer-->
+<p>
+<a href="/radio/index.html">🪀 HOME</a> | <a href="/radio/shortlist.html">📚 SHORTLIST</a> | <a href="/radio/team.html">🧩 ENCARGADOS</a>| <a onclick="play()" href="/radio/disclaimer.html"> 📜 DISCLAIMER</a></p>
+  </div>
+</div>
+    
+<!--Importamos el código de otro archivo de javascript-->
+<script src="./archivos/scripts/loader.js"></script> 
+<script src="./archivos/scripts/antizoom.js"></script>
+<script src="./archivos/scripts/config.js"></script> 
+<script src="./archivos/scripts/scripts.js"></script> 
+<script src="./archivos/scripts/song_list.js"></script>
+<script src="./archivos/scripts/main.js"></script>
+
+<!-- Cerramos el cuerpo de la web-->
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!--Definimos la versión de html a usar(la última versión)-->
+<!DOCTYPE html>
+<html>
+
+<!--La cabeza de la web en donde enlazaremos los diferentes archivos a usar-->
+<head>
+<title>Inicio | Los chamos informan</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+<link href="archivos/css/styles.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!--El cuerpo (lo visible) de la radio-->
+<body>
+
+<!--Navegador-->
+<nav class="navbar">
+
+<!-- Lado en donde se encontrara el logo y título del proyecto -->
+<div class="logo">
+    
+<!--Logo y título de la web-->    
+<h3><img class="bB" src="archivos/images/logo.webp"> Los chamos informan</h3>
+</div>
+    
+<!--Apartados para entrar a otros lados de la web-->
+<ul class="links">
+<li><button onclick="play()"><a href="/radio/index.html"><img src="./archivos/images/h1.gif" class="header"> Home</a></button></li>
+<li><button onclick="play()"><a href="/radio/radio.html"><img src="./archivos/images/h2.gif" class="header"> En vivo</a></button><button onclick="play()"><a href="/radio/playlist.html"><img src="./archivos/images/h2.gif" class="header"> Playlist</a>
+<li></li></button><button onclick="play()"><a href="/radio/shortlist.html"><img src="./archivos/images/h3.gif" class="header"> Shortlist</a></button></li>
+</ul>
+</nav>
+
+<!--Contenido después del navegador de la web (se está usando un atributo obbsoleto, se arreglara dentro de unas actualizaciones de código)-->
+<div align="center" id="content">
+<div>
+<!--Hacemos un salto de línea-->
+<br>
+
+<!--Realizamos un sobre mí acerca de la radio-->
+<div class="caja">
+<div id="coin"><a href="/radio/about.html"><img class="imC" src="archivos/images/logo.webp"></img></a>
+</div>
+
+<!--Realizamos un sobre mí acerca de la radio-->
+<p class="red">Es un proyecto estudiantil, que propone que los estudiantes desarrollen una innovación
+creativa para que sea eficaz la comunicación entre la institución educativa y los estudiantes, sin
+ignorar el entretenimiento de sus usuarios...<a href="/about.html" class="headline">Clickea aquí
+para seguir viendo</a>
+
+<!--Hacemos varios saltos de línea para que el texto se adecue bien (lo mas optimo sería usar unos divs, pronto se re ajustara esa parte) -->
+<br><br><br>
+
+<span class="ha"><img src="archivos/images/think.png" class="emoji"> | ¿Porqué deberías de usar esta radio?</span>
+</p>
+
+<!--Salto de línea -->
+<br>
+
+<!-- Realizamos un apartado mostrando los beneficios de usar la radio -->
+
+<!--Beneficio-->
+<div class="inf" id="box3">
+<img src="archivos/images/clap.gif" class="beneficios"><br><br>
+<p class="bf">Se actualiza constantemente brindando una mayor comodidad para el usuario
+</p>
+</div>
+
+<!--Flecha-->
+<div class="flecha"></div>
+
+<!--Beneficio -->
+<div class="inf" id="box2">
+<img src="archivos/images/code.webp" class="beneficios"><br><br>
+<p class="bf">Es sencilla de usar, es de dominio público y puedes escuchar música
+</p>
+
+</div>
+
+<!--Flecha (se le vva a reajustar el diseño de la flecha)-->
+<div class="Flecha"></div>
+
+<!--Beneficio -->
+<div class="inf" id="box">
+<img src="archivos/images/sterio.gif" class="beneficios"><br><br>
+<p class="bf">Puedes descubrir nuevas músicas y entretenerte un rato
+</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Hacemos un salto de línea, sin requerir un br-->
+<div class="clear"></div>
+
+<!--Parte de abajo de la web (footer)-->
+<footer class="info" id="footer">
+
+<p class="Tes2">
+<a onclick="play()" href="/radio/index.html">🪀 HOME</a> | <a onclick="play()" href="/radio/shortlist.html">📚 SHORTLIST</a> | <a onclick="play()" href="/radio/team.html">🧩 ENCARGADOS</a> | <a onclick="play()" href="/radio/disclaimer.html"> 📜
+DISCLAIMER</a>
+</p><p class="Tes">Copyright © E.T.C Bicentenario</p>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<!--Importamos código javascript-->
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+<script src="./archivos/scripts/loader.js"></script>
+<script src="./archivos/scripts/antizoom.js"></script>
+<script src="./archivos/scripts/config.js"></script>
+<script src="./archivos/scripts/scripts.js"></script>
+
+<!--Sonidos al clickear enlaces-->
+<audio id="audio" src="./archivos/system/success.mp3"></audio>
+
+</body>
+
+</html>

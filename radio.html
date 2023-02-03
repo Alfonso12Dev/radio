@@ -1,0 +1,81 @@
+<!--Definimos que usaremos la última versión de html-->
+<!DOCTYPE html>
+<html>
+
+<!--La cabeza de la web en donde enlazaremos los diferentes archivos a usar-->
+<head>
+<title>En vivo | Los chamos informan</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+<link href="archivos/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!--El cuerpo (lo visible) de la radio-->
+<body>
+
+<!--Navegador-->
+<nav class="navbar">
+
+  <!-- Lado en donde se encontrara el logo y título del proyecto -->
+  <div class="logo">
+  
+  <!--Logo y título de la web-->    
+  <h3><img class="bB" src="archivos/images/logo.webp"> Los chamos informan</h3>
+  </div>
+  
+<!--Apartados para entrar a otros lados de la web-->
+<ul class="links">
+  <li><button onclick="play()"><a href="/radio/index.html"><img src="./archivos/images/h1.gif" class="header"> Home</a></button></li>
+  <li><button onclick="play()"><a href="/radio/radio.html"><img src="./archivos/images/h2.gif" class="header"> En vivo</a></button><button onclick="play()"><a href="/radio/playlist.html"><img src="./archivos/images/h2.gif" class="header"> Playlist</a>
+  <li></li></button><button onclick="play()"><a href="/radio/shortlist.html"><img src="./archivos/images/h3.gif" class="header"> Shortlist</a></button></li>
+    </ul>
+</nav>
+  
+<!--Ahora alineamos al centro, el contenido de la web-->
+<div id="container">
+  
+<!-- Alineamos la web con la ID content -->
+<div id="content">
+
+<!--Creamos un div con la ID llamada bg2 (en el archivo css tiene un diseño ya definido) con la clase "inputlabel-->
+<div id="bg" class="inputlabel">
+
+<!--Creamos un div para que se vea mas ordenado-->
+<div id="news">
+
+<!--Usamos la etiqueta de "párrafo" para que los textos tengan color-->
+<p class="texto">
+
+<!--Creamos una "lista desordenada" para añadir las partes de la lista-->
+<ul>    
+ <li class="b">Bienvenid@ a la sección en vivo!</li>
+
+ </ul>
+
+<div class="nom">
+
+<iframe name="contenedorPlayer" class="cuadroBordeado" allow="autoplay" width="100%" height="78px" marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no  src="https://cp.usastreams.com/pr2g/APPlayerRadioHTML5.aspx?stream=https://us4freenew.listen2myradio.com/live.mp3?typeportmount=s2_20456_stream_799965355&fondo=05&formato=mp3&color=14&titulo=2&autoStart=1&vol=5&tipo=14&nombre=Radio+TOP40&imagen=https://cp.usastreams.com/playerHTML5/img/cover.png"></iframe></div> 
+ </p>
+
+</div>
+  </div>
+</div>
+</div>
+
+<!--Parte de abajo de la web (footer)-->  
+<div id="footer2">
+
+<!--Añadimos los apartados del footer-->
+<p>
+<a href="/radio/index.html">🪀 HOME</a> | <a href="/radio/shortlist.html">📚 SHORTLIST</a> | <a href="/radio/team.html">🧩 ENCARGADOS</a>| <a onclick="play()" href="/radio/disclaimer.html"> 📜 DISCLAIMER</a></p>
+  </div>
+</div>
+
+<!--Importamos el código de otro archivo de javascript-->
+<script src="./archivos/scripts/loader.js"></script> 
+<script src="./archivos/scripts/antizoom.js"></script>
+<script src="./archivos/scripts/config.js"></script> 
+<script src="./archivos/scripts/scripts.js"></script>
+    
+</body>
+</html>
