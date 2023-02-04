@@ -7,10 +7,10 @@ let All_song = [
      singer: "Joji"
    },
    {
-     name: "Diabolic swing",
+     name: "Memories",
      path: "https://www.thinknews.com.ng/wp-content/uploads/2020/07/Maroon-5-Memories-01.mp3",
      img: "https://thinknews.com.ng/wp-content/uploads/2021/05/images282029.jpeg",
-     singer: "Unkwown author"
+     singer: "Maroon 5"
    },
    {
      name: "Unholy",
@@ -31,11 +31,17 @@ let All_song = [
      singer: "Selena Gomez"
    },
    {
-    name: "Yusuf Alev - Yoros",
-    path: "archivos/song/6.mp3",
-    img: "archivos/images/example.png",
-    singer: "Magic Free Release"
-   }
+    name: "Youngblood",
+    path: "ttps://fine.sunproxy.net/file/c3BlU2dSVDcyNWtQRmFLdTE4ZHl6bHE0bXhqOWFXMlpzTm9jK09vUDErb3VDdTQvcEo5RmdCcXVhaFZpNG15dVhsMVltaGovNDZVdjl6VUpteEJvSU01VVpHUDNhOTc0ZEw4LytwMVB3eDQ9/5_Seconds_Of_Summer_-_Youngblood_(ColdMP3.com).mp3",
+    img: "https://cadena100-cdnmed.agilecontent.com/resources/jpg/5/2/1663928094825.jpg",
+    singer: "5 Seconds of Summer"
+   },
+   {
+    name: "Teeth",
+    path: "https://fine.sunproxy.net/file/c3BlU2dSVDcyNWtQRmFLdTE4ZHl6bHE0bXhqOWFXMlpzTm9jK09vUDErcGFoaDU0U01zbUpmb3dLYytNL0lVL3RENnRhK0VWSEtiVC9LN3pnbW82VVkrN1pVcUtuVVN1bk9zZEVQY2ZkTEk9/5_seconds_of_summer_-_teeth_(ColdMP3.com).mp3",
+    img: "https://cadena100-cdnmed.agilecontent.com/resources/jpg/5/2/1663928094825.jpg",
+    singer: "5 Seconds of Summer"
+   },
 ];
 
 //<-Obtenemos la clase tracks y la iniciaremos a utilizar para añadir las canciones que definimos previamente en la variable all_song->
