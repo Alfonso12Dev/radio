@@ -13,10 +13,10 @@ let All_song = [
      singer: "Unkwown author"
    },
    {
-     name: "Ufo playlist",
-     path: "archivos/song/song3.mp3",
-     img: "archivos/images/example.png",
-     singer: "Camellia"
+     name: "Unholy",
+     path: "https://www.thinknews.com.ng/wp-content/uploads/2022/09/Sam_Smith_Ft_Kim_Petras_-_Unholy_(thinknews.com.ng).mp3",
+     img: "https://thinknews.com.ng/wp-content/uploads/2022/09/Sam-Smith-Unholy-Ft-Kim-Petras-1.jpg",
+     singer: "Sam Smith & Kim Petras"
    },
    {
      name: "Shahed -Indian Fusion",
