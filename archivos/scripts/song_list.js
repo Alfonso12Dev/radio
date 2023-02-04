@@ -1,15 +1,15 @@
 //<-Creamos un array definiendo las canciones a reproducir y agregamos algunos datos adicionales->
 let All_song = [
    {
-     name: "Chilla's art",
-     path: "archivos/song/song.mp3",
-     img: "archivos/images/example.png",
-     singer: "Unkwown author"
+     name: "Before The Day Is Over",
+     path: "https://thinknews.com.ng/wp-content/uploads/2022/11/Joji_Before_The_Day_Is_Over_(thinkNews.com.ng).mp3",
+     img: "https://thinknews.com.ng/wp-content/uploads/2022/11/Joji-Before-The-Day-Is-Over-1-678x381.jpg",
+     singer: "Joji"
    },
    {
      name: "Diabolic swing",
-     path: "archivos/song/song2.mp3",
-     img: "archivos/images/example.png",
+     path: "https://www.thinknews.com.ng/wp-content/uploads/2020/07/Maroon-5-Memories-01.mp3",
+     img: "https://thinknews.com.ng/wp-content/uploads/2021/05/images282029.jpeg",
      singer: "Unkwown author"
    },
    {
@@ -19,16 +19,16 @@ let All_song = [
      singer: "Sam Smith & Kim Petras"
    },
    {
-     name: "Shahed -Indian Fusion",
-     path: "archivos/song/4.mp3",
-     img: "archivos/images/example.png",
-     singer: "imshahed"
+     name: "Glimpse of US",
+     path: "https://thinknews.com.ng/wp-content/uploads/2022/11/Joji_Glimpse_of_US_(thinkNews.com.ng).mp3",
+     img: "https://thinknews.com.ng/wp-content/uploads/2022/06/Joji-Glimpse-Of-Us-1-150x150.jpg",
+     singer: "Joji"
    },
    {
      name: "Syn Cole - Feel Good",
-     path: "archivos/song/5.mp3",
-     img: "archivos/images/example.png",
-     singer: "NoCopyrightSounds"
+     path: "https://thinknews.com.ng/wp-content/uploads/2022/08/Rema_Calm_Down_Remix__(thinkNews.com.ng).mp3",
+     img: "https://thinknews.com.ng/wp-content/uploads/2022/08/Rema-Ft-Selena-Gomez-Calm-Down-Remix-1.jpg",
+     singer: "Selena Gomez"
    },
    {
     name: "Yusuf Alev - Yoros",
