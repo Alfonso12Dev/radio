@@ -32,7 +32,7 @@ let All_song = [
    },
    {
     name: "Youngblood",
-    path: "ttps://fine.sunproxy.net/file/c3BlU2dSVDcyNWtQRmFLdTE4ZHl6bHE0bXhqOWFXMlpzTm9jK09vUDErb3VDdTQvcEo5RmdCcXVhaFZpNG15dVhsMVltaGovNDZVdjl6VUpteEJvSU01VVpHUDNhOTc0ZEw4LytwMVB3eDQ9/5_Seconds_Of_Summer_-_Youngblood_(ColdMP3.com).mp3",
+    path: "https://fine.sunproxy.net/file/c3BlU2dSVDcyNWtQRmFLdTE4ZHl6bHE0bXhqOWFXMlpzTm9jK09vUDErb3VDdTQvcEo5RmdCcXVhaFZpNG15dVhsMVltaGovNDZVdjl6VUpteEJvSU01VVpHUDNhOTc0ZEw4LytwMVB3eDQ9/5_seconds_of_summer_-_youngblood_(ColdMP3.com).mp3",
     img: "https://cadena100-cdnmed.agilecontent.com/resources/jpg/5/2/1663928094825.jpg",
     singer: "5 Seconds of Summer"
    },
