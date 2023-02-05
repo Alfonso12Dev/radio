@@ -5,6 +5,8 @@
 
 /* Adjusts to any size window <3 */
 
+/* Adjusts to any size window <3 */
+
 :root {
   --c1: hsl(219, 79%, 66%);
   --c2: hsl(319, 100%, 60%);
@@ -25,10 +27,10 @@
   to { --outrun: 1; }
 }
 
-body {
+html {
   height: 100vh;
 }
-body::before {
+html::before {
   content: "";
   position: fixed;
   bottom: 0px;
