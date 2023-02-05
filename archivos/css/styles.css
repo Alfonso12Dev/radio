@@ -727,7 +727,7 @@ ul {
 /*<---------------------Fin---------------------->*/
 
 /*<--Creamos estilos para los footers, headers, navbars y también para algunas etiquetas que usaremos en el navbar-->*/
-#footer {
+/*#footer {
 background: #0d052e;
 color: #fff;
 padding: 25px;
@@ -751,7 +751,7 @@ border-radius: 5px;
 align-items: center;
 }
 
-/*#footer {
+#footer {
 	background: #8578E1;
 	color: #fff;
 	padding: 25px;
