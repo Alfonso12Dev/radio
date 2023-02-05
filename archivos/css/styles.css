@@ -3,10 +3,6 @@
 
 /*<--------- Inicio de ajustar los estilos--------->*/
 
-/* Adjusts to any size window <3 */
-
-/* Adjusts to any size window <3 */
-
 :root {
   --c1: hsl(219, 79%, 66%);
   --c2: hsl(319, 100%, 60%);
@@ -99,13 +95,6 @@ html::before {
               ),
               radial-gradient(circle at center, var(--c4) min(45vh, 45vw), transparent min(45vh, 45vw)),
               linear-gradient(var(--c5) 60%, var(--c3) 60%, var(--c2) 150%);
-}
-
-body{
-	display: grid;
-  background-repeat: no-repeat;
-	place-items: center;
-	min-height: 100vh;
 }
 
 .header{
