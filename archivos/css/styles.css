@@ -4,10 +4,10 @@
 /*<--------- Inicio de ajustar los estilos--------->*/
 
 body{
-height: 100vh;
+/*height: 100vh;*/
 margin:0px; 
 /*background: url("../images/fondo.webp");*/ 
-/*background: url("https://bitcoinmaniagame.com/app/images/homepage/sity_2.png");*/
+background: url("https://bitcoinmaniagame.com/app/images/homepage/sity_2.png");
 background-attachment: fixed;
 /*background-color: #1e0150;*/
 background-size: cover;
@@ -19,12 +19,12 @@ justify-content: center;
 align-items: center;
 position: relative;
 background: #ff00cc;
-background: linear-gradient(to right,#333399,#ff00cc);
+/*background: linear-gradient(to right,#333399,#ff00cc);
 background: linear-gradient(
         to right,
         #333399,
         #ff00cc
-    ); 
+    ); */
 }
 
 .header{
