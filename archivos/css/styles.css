@@ -3,20 +3,6 @@
 
 /*<--------- Inicio de ajustar los estilos--------->*/
 
-/* set bg color same as the first color defined in the animation function */
-.animated_bg {
-	background: #ef008c; 
-	color: #fff;
-}
-.animated_bg2 {
-	background: #abebfe; 
-	color: #000;
-}
-.animated_bg3 {
-	background: #71a98b; 
-	color: #fff;
-}
-
 /* Adjusts to any size window <3 */
 
 :root {
@@ -39,10 +25,10 @@
   to { --outrun: 1; }
 }
 
-html {
+body {
   height: 100vh;
 }
-html::before {
+body::before {
   content: "";
   position: fixed;
   bottom: 0px;
