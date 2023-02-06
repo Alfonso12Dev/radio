@@ -943,10 +943,29 @@ top: auto;
 }
 	
 
-@media screen and (max-width: 980px){
-    body{
-        width: 100% auto;
-    }
+@media screen and (max-width: 600px){
+.TW{
+color: transparent;
+}
+	
+.imC {
+    position: absolute;
+    left: -100%;
+    width: 300px;
+    border-radius: 27px;
+}
+	
+.ha {
+    font-size: 21px;
+}
+	
+.caja {
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 120px;
+    top: 185px;
+}
 }
 
 
