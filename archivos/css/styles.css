@@ -966,6 +966,61 @@ color: transparent;
     height: 120px;
     top: 185px;
 }
+	
+#box3 {
+    color: white;
+    margin: -180px;
+    position: absolute;
+    left: 318px;
+    top: 666px;
+    width: 137px;
+    padding: 10px;
+}
+	
+#box {
+    margin: -180px;
+    color: white;
+    position: absolute;
+    left: 95px;
+    top: 666px;
+    width: 137px;
+    padding: 10px;
+}
+	
+.flecha {
+    display: block;
+    width: 26px;
+    height: 38px;
+    background-image: url(https://bitcoinmaniagame.com/app/images/arrows/homework_arrow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 561px;
+    left: 42%;
+    content: '';
+}
+	
+	.Flecha {
+    display: block;
+    width: 85px;
+    height: 38px;
+    background-image: url(https://bitcoinmaniagame.com/app/images/arrows/homework_arrow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 730px;
+    left: 23%;
+    -webkit-transform: rotate(90deg);
+    content: '';
+}
+	
+#box2 {
+    color: white;
+    margin: -180px;
+    position: absolute;
+    left: 200px;
+    top: 900px;
+    width: 137px;
+    padding: 10px;
+}
 }
 
 
