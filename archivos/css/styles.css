@@ -780,9 +780,36 @@ top: auto;
 /*Hacemos que en ciertos máximos de pantalla, se adapte la web (Aún en desarrollo)*/	
 
 @media screen and (max-width: 700px){
+	
+ha {
+    font-size: 20px;
+    top: 155px;
+    left: 10px;
+    position: absolute;
+}
+	
+.red {
+    color: WHITE;
+    font-size: 14px;
+    position: absolute;
+    left: -12px;
+    top: 270px;
+}
+	
 .TW{
 color: transparent;
 }
+	
+.navbar ul.links {
+margin-left: auto;
+position: fixed;
+left: 15%;
+margin-right: 50px;
+list-style: none;
+display: flex;
+top: -10%;
+align-items: center;
+transition: 0.4s ease all, 0s ease background;}
 	
 .navbar .right {
 height: 0;
@@ -883,13 +910,12 @@ z-index: 40;}
 	
 .Flecha {
     display: block;
-    width: 85px;
     height: 38px;
     background-image: url(https://bitcoinmaniagame.com/app/images/arrows/homework_arrow.png);
     background-repeat: no-repeat;
     position: absolute;
-    top: 730px;
-    left: 23%;
+    top: 679px;
+    left: 39%;
     -webkit-transform: rotate(90deg);
     content: '';
 }
