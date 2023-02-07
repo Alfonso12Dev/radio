@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Lacquer');
 
 /*<--------- Inicio de ajustar los estilos--------->*/
-
-.Lbeneficios2{
-}
-
-.Lbeneficios{
-}
-
 body{
 margin:0px; 
 background: url("https://bitcoinmaniagame.com/app/images/homepage/sity_2.png");
@@ -37,10 +30,6 @@ position: relative;
   position: absolute;
   left: 550px;
   top: 31px;
-}
-
-*{
-    margin: 0px;
 }
 
 .emoji{
@@ -419,14 +408,6 @@ color: rgba(255,255,255,0.5);
 
 /*Estilos usados para cosas comúnes o cortas*/
 
-#radio1 {color: #03222d;margin: 0 0 2px;overflow: hidden;padding: 15px; background:#da123a; border: solid 10px #000; border-radius:5px;}
-#radio {direction: ltr;margin: 0 0 2px;/*27px*/ min-height: 180px; width: 100%;}
-.caja-box { float: left; margin: 0; text-align: left; width: 100%;}
-.img-box { float: left; margin: 0 10px 0 0;width:120px}
-.repro-box {  padding: 12px 0 0;width:350px;float:left}
-.repro-box2 {  padding: 12px 0 0;width:400px;float:left}
-.repro-box3 { padding: 12px 0 0;width: 100px;float: right; } /*padding: 12px 0 0;width:100px;float:left*/
-
 .flecha {
 display: block;
 width: 26px;
@@ -612,10 +593,6 @@ z-index: 0;
     display: inline-block;
 }
 
-.bf{
-    text-align: center;
-}
-
 .bred{
 font-family: "ＭＳ Ｐゴシック"; 
 color: #FA0707;
@@ -624,10 +601,6 @@ color: #FA0707;
 .resaltar{
 color: #03e1e4!important;
 font-family: "ＭＳ Ｐゴシック"; 
-}
-
-.ti{
-    margin: 0;
 }
 
 .w{
@@ -734,42 +707,6 @@ ul {
 /*<---------------------Fin---------------------->*/
 
 /*<--Creamos estilos para los footers, headers, navbars y también para algunas etiquetas que usaremos en el navbar-->*/
-/*#footer {
-background: #0d052e;
-color: #fff;
-padding: 25px;
-width: 100%;
-position: absolute;
-display: flex;
-top: 132%;
-border-radius: 5px;
-align-items: center;
-}
-
-#footer2 {
-background: #0d052e;
-color: #fff;
-padding: 25px;
-width: 100%;
-position: absolute;
-display: flex;
-top: 290%;
-border-radius: 5px;
-align-items: center;
-}
-
-#footer {
-	background: #8578E1;
-	color: #fff;
-	padding: 25px;
-	width: 100%;
-    margin: 0;
-	display: flex;
-    border: 1px solid #234b79;
-    border-radius: 5px;
-	align-items: center;
-}
-*/
 
 .navbar {
 color: #fff;
@@ -783,8 +720,8 @@ align-items: center;
 }
 
 .navbar .logo {
-	cursor: pointer;
-	font-family: Lacquer;
+cursor: pointer;
+font-family: Lacquer;
 }
 
 
@@ -802,24 +739,21 @@ transition: 0.4s ease all, 0s ease background;
 
 
 button {
-	background: $secondary;
-	outline: none;
-	font-weight: bold;
-	padding: 10px 18px;
-	border-radius: 25px;
-	border: 1px solid darken($secondary,5%);
-	letter-spacing: 1px;
-	
-	
-	&:hover {
-		cursor: pointer;
-		transform: scale(1.1);
-		color: white;
-		background: lighten(#080808,10%);
-		border-color: darken($primary,5%);
-	}
-	
+outline: none;
+font-weight: bold;
+padding: 10px 18px;
+border-radius: 25px;
+border: 1px solid darken($secondary,5%);
+letter-spacing: 1px;	
 }
+
+button::hover {
+cursor: pointer;
+transform: scale(1.1);
+color: white;
+background: lighten(#080808,10%);
+border-color: darken(#080808,5%);
+	}
 
 .content {
 	background-size: cover;
@@ -843,11 +777,11 @@ top: auto;
 
 /*<---------------------Fin---------------------->*/
 
-/*Hacemos que en ciertos máximos de pantalla, se adapte la web (Aún en desarrollo)*/
-@media screen and (max-width: 750px){
+/*Hacemos que en ciertos máximos de pantalla, se adapte la web (Aún en desarrollo)*/	
 
-body{
- width: 100%;   
+@media screen and (max-width: 700px){
+.TW{
+color: transparent;
 }
 	
 .navbar .right {
@@ -862,91 +796,39 @@ top: auto;
 		
 	}
 	
-	.navbar.collapsed .toggle {
-		
-		.line2 {
-			opacity: 0;
-		}
-		
-		.line3 {
-			transform: rotate(45deg) translate(-5px,-6px);
-		}
-		
-    }
-	
 	
 	.navbar.collapsed .logo {
-		position: absolute;
-		z-index: 44;
+	position: absolute;
+	z-index: 44;
 	}
 	
 	.navbar .links {
-		position: fixed;
-		z-index: 40;
-		top: 0;
-		left: -100%;
-		flex-direction: column;
-		width: auto;
-		
-		li:first-child {
+	position: fixed;
+	z-index: 40;
+	top: 0;
+	left: -100%;
+	flex-direction: column;
+	width: auto;		
+    }
+	
+li:first-child {
 			margin-top: 80px;
 		}
-    }
-
-.navbar.collapsed .links {
-		left: 0;
-		
-		a {
-			color: #fff;
-		}
-		
-		li {
-			width: 100%;
-			
-			&:hover a {
-				color: #080808;
-			}
-			
-		}
-		
-		
-	}
 	
-	.navbar.collapsed .right {
-		position: fixed;
-		width: $sidebarWidth;
-		text-align: center;
-		height: auto;
-		bottom: 40px;
-		left: $sidebarWidth/2;
-		transform: translateX(-50%);
-		z-index: 45;
-	}
-	
-	
-	
-	.navbar.collapsed {
-		
-		~ main {
-			filter: blur(1px);
-			opacity: 0.8;
-		}
-		
-	}
-	
-	
-	.navbar.sticky {
-		position: fixed;
-		z-index: 40;
-	}
-	
+.avbar.collapsed .right {
+position: fixed;
+width: auto;
+text-align: center;
+height: auto;
+bottom: 40px;
+left: auto;
+transform: translateX(-50%);
+z-index: 45;
 }
 	
-
-@media screen and (max-width: 700px){
-.TW{
-color: transparent;
-}
+.navbar.sticky {
+position: fixed;
+z-index: 40;}
 	
 .imC {
     position: absolute;
@@ -999,7 +881,7 @@ color: transparent;
     content: '';
 }
 	
-	.Flecha {
+.Flecha {
     display: block;
     width: 85px;
     height: 38px;
@@ -1052,11 +934,6 @@ padding:1em;
     font-size: 40px;
 }
 
-div, ul, h2, h3, h4, img{
-padding:0px; 
-margin:0px;
-}
-
 ul{ 
 list-style-type: none; 
 }
@@ -1075,12 +952,6 @@ margin:auto;
 }
 
 /*<---------------------Fin---------------------->*/
-
-.clear {
-clear: both; 
-margin: 0px; 
-height:0
-}
 
 p a{
 font:10px/14px Tahoma, sans-serif; 
