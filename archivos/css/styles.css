@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Lacquer');
 
 /*<--------- Inicio de ajustar los estilos--------->*/
+
+.Lbeneficios {
+    left: 60px;
+    position: absolute;
+    top: 149px;
+}
+
 body{
 margin:0px; 
 background: url("https://bitcoinmaniagame.com/app/images/homepage/sity_2.png");
@@ -409,15 +416,15 @@ color: rgba(255,255,255,0.5);
 /*Estilos usados para cosas comúnes o cortas*/
 
 .flecha {
-display: block;
-width: 26px;
-height: 38px;
-background-image: url("https://bitcoinmaniagame.com/app/images/arrows/homework_arrow.png");
-background-repeat: no-repeat;
-position: absolute;
-top: 561px;
-left: 31%;
-content: '';
+    display: block;
+    width: 26px;
+    height: 38px;
+    background-image: url(https://bitcoinmaniagame.com/app/images/arrows/homework_arrow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 561px;
+    left: 345px;
+    content: '';
 }
 
 .Flecha {
@@ -453,10 +460,11 @@ content: '';
 }
 
 .red {
-    color: WHITE;    /*#2507FA;*/
+    color: WHITE;
     font-size: 20px;
     position: absolute;
-    left: -74px;
+    left: 79px;
+    width: 278px;
     top: 270px;
 }
 
@@ -607,32 +615,30 @@ font-family: "ＭＳ Ｐゴシック";
 }
 
 #box3 {
-color: white;
-margin: -180px;
-position: absolute;
-left: 370px;
-top: 666px;
-width: 137px;
-padding: 10px}
+    color: white;
+    position: absolute;
+    left: 121px;
+    top: 495px;
+    width: 137px;
+    padding: 10px;
+}
 
 #box2 {
-color: white;
-margin: -180px;
-position: absolute;
-left: 360%;
-top: 666px;
-width: 137px;
-padding: 10px;
+    color: white;
+    position: absolute;
+    left: -250px;
+    top: 495px;
+    width: 137px;
+    padding: 10px;
 }
 
 #box {
-margin: -180px;
-color: white;
-position: absolute;
-left: -2px;
-top: 666px;
-width: 137px;
-padding: 10px}
+    color: white;
+    position: absolute;
+    left: 462px;
+    top: 495px;
+    width: 137px;
+    padding: 10px;}
 
 /*<---------------------Fin---------------------->*/
 
@@ -779,6 +785,11 @@ top: auto;
 /*Hacemos que en ciertos máximos de pantalla, se adapte la web (Aún en desarrollo)*/	
 
 @media screen and (max-width: 700px){
+	
+.Lbeneficios {
+    top: 100px;
+    position: absolute;
+}
 	
 .ha {
     font-size: 20px;
